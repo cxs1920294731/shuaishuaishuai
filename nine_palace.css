@@ -1,45 +1,44 @@
-body{
-	text-align: center;
-}
-@media screen and (max-width: 425px) {
-	.row div{
-/*	border: 1px solid black;
-
-*/	width: 50px;
-	height: 50px;
-    float: left;
-    margin: 10px 10px 10px 10px;
-    background-color: #fea500;
-    border-radius: 5px;
-    
-    
-}
-.row{
-	clear: both;
-	width:;
-	margin: 1px auto;
-
-    }
-}
-@media screen and (min-width:425px) {
-	.row div{
-/*	border: 1px solid black;
-
-*/	width: 100px;
-	height: 100px;
-    float: left;
-    margin: 10px 10px 10px 10px;
-    background-color: #fea500;
-    border-radius: 5px;
-    
-    
-}
-.row{
-	clear: both;
-	width:;
-	margin: 1px auto;
-
-    }
-
-}
-
+     *{
+            margin:0;
+            padding: 0;
+        }
+        @media only screen and (min-width: 401px){
+            html {
+                font-size: 24px !important;
+            }
+        }
+        @media only screen and (min-width: 428px){
+            html {
+                font-size: 26.75px !important;
+            }
+        }
+        @media only screen and (min-width: 481px){
+            html {
+                font-size: 30px !important; 
+            }
+        }
+        @media only screen and (min-width: 569px){
+            html {
+                font-size: 35px !important; 
+            }
+        }
+        @media only screen and (min-width: 641px){
+            html {
+                font-size: 40px !important; 
+            }
+        }
+        body{
+            text-align: center;
+            
+        }
+        .row div{
+            display: inline-block;
+            width: 5rem;
+            background-color:#fea500; 
+            border-radius: 0.2rem;
+            margin: 0.2rem;
+            height: 5rem;
+        }
+        .row{
+            clear: both;
+        } 
