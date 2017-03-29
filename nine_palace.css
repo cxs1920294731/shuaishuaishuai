@@ -2,43 +2,16 @@
             margin:0;
             padding: 0;
         }
-        @media only screen and (min-width: 401px){
-            html {
-                font-size: 24px !important;
-            }
-        }
-        @media only screen and (min-width: 428px){
-            html {
-                font-size: 26.75px !important;
-            }
-        }
-        @media only screen and (min-width: 481px){
-            html {
-                font-size: 30px !important; 
-            }
-        }
-        @media only screen and (min-width: 569px){
-            html {
-                font-size: 35px !important; 
-            }
-        }
-        @media only screen and (min-width: 641px){
-            html {
-                font-size: 40px !important; 
-            }
-        }
         body{
-            text-align: center;
-            
+            margin: 0 auto;
         }
-        .row div{
-            display: inline-block;
-            width: 5rem;
+  
+        div{
+            width: 30%;
             background-color:#fea500; 
-            border-radius: 0.2rem;
-            margin: 0.2rem;
-            height: 5rem;
+            border-radius:4%;
+            margin: 1.5%;
+            padding: 30% 0 0 0;
+            float: left;
         }
-        .row{
-            clear: both;
-        } 
+        
