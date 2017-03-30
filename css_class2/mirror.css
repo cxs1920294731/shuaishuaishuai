@@ -1,0 +1,57 @@
+body{
+	text-align: center;
+	color: #fff;
+
+}
+.art{
+	width: 60%;
+	margin: 0 auto;
+}
+.contain{
+	margin: 0 auto;
+	border: 1px solid;
+	height: 50rem;
+	background-color: #68cdd6;
+}
+.header{
+	text-align: left;
+	margin: 15px;
+	margin-bottom: 50px;
+}
+.header img{
+	width: 3%;
+
+}
+.img{
+	text-indent: -2em;
+	margin-bottom: 20%;
+}
+.section img{
+	width: 25%;
+}
+.section p{
+     text-align: left;
+}
+.footer{
+	
+	margin-top: 20%;
+}
+.img1{
+	float: left;
+	font-size: 80%;
+	width: 40%;
+	text-align: left;
+
+}
+.img1 img{
+	width: 25%;
+}
+.img2{
+	float: right;
+	font-size: 80%;
+	width: 40%;
+	
+}
+.img2 img{
+	width: 25%;
+}
