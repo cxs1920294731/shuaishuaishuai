@@ -1,0 +1,117 @@
+body{
+    font-size: 30px;
+    background-color: rgb(240,240,240);
+}
+a:hover{
+    text-decoration: none;
+}
+header{
+    height: 8rem;
+    background-color: rgb(41,189,224);
+}
+header span{
+    height: 4rem;
+    width: 4rem;
+    display: inline-block;
+    background-image: url(images/icon_04.png);
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+.section{
+    margin-top: 10rem;
+}
+.game-hes{
+   border: 1px solid rgb(201,201,201);
+   background-color: white;
+   width: 95%;
+   margin-left:5%;
+   height: 9rem; 
+   padding-top: 2rem;
+}
+.game-hes span:first-child{
+
+}
+.game-hes  span:last-child{
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    float: right;
+    background-image: url(images/icon_03.png);
+    background-repeat: no-repeat;
+}
+.game-type{
+    width: 95%;
+    margin-left: 5%;
+    border: 1px solid rgb(201,201,201);
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    background-color: white;
+}
+.game-type>p{
+    height: 7.5rem;
+
+    padding-top: 1.5rem;
+    border-bottom: 1px solid rgb(253,225,174);
+}
+.game-type .game-d{
+    margin-top: 3rem;
+}
+.game-type .game-d div{
+    height: 10rem;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(105,209,233);
+    padding-top: 3rem;
+}
+.game-type .game-d p{
+    font-size: 23px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.game-type .game-d .icon-three{
+    width:100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 10rem;
+    
+}
+.game-type .icon-three a:first-child span{
+    width: 80%;
+    height: 10rem;
+    margin-left: 4.9rem;
+    padding-top: 3rem;
+    display: inline-block;
+    background-color: rgb(105,209,233);
+} 
+.game-type .icon-three a:last-child span{
+    height: 6rem;
+    width: 5rem;
+    display: inline-block;
+    background-image:url(images/icon_07.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 2rem;
+}
+.row .game-type .icon-radiu{
+    margin-top: -1.7rem;
+}
+.icon-radiu span{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(240,240,240);
+    display: inline-block;
+    border-radius: 50%;
+}
+.icon-radiu span:first-child{
+    background-color: rgb(105,209,233);
+}
+
+.yemian{
+    position: fixed;
+    left: 5rem;
+    top: 10rem;
+    font-size: 14px;
+    color: black;
+}

@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(41,189,224);
+}
+.container-fluid{ 
+       overflow: hidden;
+}
+.nav .section {
+    background-color: rgb(185,233,245); 
+}
+.icon-tri .col-sm-11{
+   margin-top: -0.5rem;
+   padding-left: 5rem;
+}
+.head .click-people .col-sm-7{
+    padding-left:5rem;
+}
+.head{
+    padding-top: 1rem;
+    background-color: rgb(41,189,224);
+}
+.head .first{
+    font-size: 25px;
+    color:white;
+    margin-bottom: 1rem;
+}
+.head .two{
+    height: 8rem;
+    padding-top: 1rem;
+}
+.head .two .col-sm-10{
+    padding-top: 1.4rem;
+    font-size: 25px;
+}
+.head .four{
+    font-size: 20px;
+    color: white;
+}
+
+/*
+中部，块状区域
+ */
+.middle-area{
+    padding-top: 3rem;
+}
+.middle-area .hover-img .img{
+    visibility: hidden;
+}
+.middle-area .hover-img .img img{
+
+}
+.middle-area .hover-img .test:hover+.img{
+    visibility: visible;
+}
+.middle-area .col-sm-3{
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 32rem;
+}
+
+.middle-area .hover-img .test{
+    height: 25rem;
+    border: 5px solid white;
+    margin-bottom: 1rem;
+    font-size: 30px;
+
+}
+.middle-area .hover-img .test div:first-child{
+    height: 18rem;
+    background-color: rgb(245,201,123);
+    padding-top: 6rem;
+    font-size: 35px;
+}
+.middle-area .hover-img .test div:last-child{
+    height: 6rem;
+    background-color: rgb(131,176,154);
+    color: white;
+    padding-top: 1rem;
+}
+
+/*
+底部
+ */
+.footer-nav{
+    height: 10rem;
+    background-color: rgb(41,189,224);
+}
+.footer-nav .col-sm-10 button{
+    margin-top: 1.5rem;
+    height: 7rem;
+}
+
+.yemian{
+    position: fixed;
+    left: 5rem;
+    top: 10rem;
+    font-size: 14px;
+    color: black;
+}

@@ -1,0 +1,149 @@
+/*
+
+body {
+    font-size: 30px;
+   
+}
+
+.container-fluid {
+    
+}
+.color-bule{
+    background-color: rgb(41,189,224);
+}
+.navbar-fixed-tp .head {
+    padding-top: 2rem;
+    height: 8rem;
+    color: white;
+    border-bottom: 1px solid rgb(116,212,235);
+}
+
+.navbar-fixed-tp .head span:first-child {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+    display: inline-block;
+    background: url(images/imgs_03.png) no-repeat;
+    float: left;
+    vertical-align: middle;
+}
+
+.navbar-fixed-tp .head span:last-child {
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    background-image: url(images/imgs_06.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 2rem;
+    vertical-align: middle;
+}
+.img{
+    margin-top: 5rem;
+    height: 25rem;
+    background-image: url(images/imgs_11.png);
+    background-repeat: no-repeat;
+    background-position: 26rem 0rem;
+}
+.img span{
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 16%;
+}
+ */
+/*
+顶部的蓝色背静区域
+ */
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.top-area{
+    background-color: rgb(41,189,224);
+    padding-top: 2rem;
+    font-size: 25px;
+    color: white;
+}
+.top-area .first .text-center{
+    font-size: 25px;
+    margin-top: 0.8rem;
+    color: white;
+}
+.top-area .two .text-center{
+    height: 23rem;
+
+    padding-top: 14.5rem;
+    background-image: url(images/imgs_11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    font-size: 42px;
+    color: white;
+}
+.top-area .two{
+    margin-top: 4rem;
+}
+.top-area .three .color{
+    color: rgb(255,200,101);
+}
+.top-area .three{
+    margin-bottom: 3rem;
+}
+.top-area .four .word{
+    margin-top: 1rem;
+}
+.top-area .four{
+    margin-bottom: 2rem;
+}
+/*
+中间白色区域
+ */
+.white-area{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    font-size: 20px;
+    color: rgb(166,166,166);
+}
+.white-area .first-day div>span:first-child{
+    font-size: 25px;
+    color: rgb(81,81,81);
+    
+}
+ .white-area .two-day div>span:first-child{
+    font-size: 25px;
+    color: rgb(81,81,81);
+    
+ }
+ .white-area .two-day .row,.white-area .first-day .row{
+   margin-bottom: 2rem;
+   margin-top: 2rem; 
+ }
+ /*
+ 尾部区域
+  */
+.foot-btn{
+    height: 10rem;
+    padding-top: 1.5rem;
+    background-color: rgb(153,223,240,0.8);
+}
+.foot-btn .row button{
+    margin-left: 5%;
+    height: 7rem;
+    color: white;
+    border: 0;
+    font-size: 25px;
+} 
+.foot-btn .row button:first-child{
+    background-color: rgb(246,111,111);
+}
+.foot-btn .row button:last-child{
+    background-color: rgb(251,180,53);
+}
+
+.yemian{
+    position: fixed;
+    left: 5rem;
+    top: 10rem;
+    font-size: 14px;
+    color: black;
+}
