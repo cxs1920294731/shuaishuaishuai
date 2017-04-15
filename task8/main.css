@@ -1,0 +1,354 @@
+body{
+	background-color: rgb(248, 248, 248);
+}
+.art-nav{
+	height: 35rem;
+
+	background-repeat: no-repeat;
+     
+    
+   
+    background-size:cover;
+}
+.art-nav .carousel-inner .one{
+	height: 35rem;
+    background-image: url(images/main_02.jpg);
+	background-repeat: no-repeat;
+    background-size:100% 100%;
+    padding-top: 0;
+ 
+}
+.art-nav .carousel-inner .two{
+	height: 35rem;
+    background-image: url(images/main_02.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 0;
+   
+}
+.art-nav .carousel-inner .three{
+	height: 35rem;
+    background-image: url(images/main_02.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%; 
+
+    padding-top: 0;
+    
+}
+.art-nav img{
+	height: 100%;
+	width: 100%;
+	 objec-fit: cover;
+}
+.radiu-icon span{
+	height: 1rem;
+	width: 1rem;
+	display: inline-block;
+	border-radius: 50%;
+	border:1px solid rgb(198,196,200);
+	margin: 0.5rem;
+	
+}
+.section{
+	
+	
+}
+.nav-head .n-one .icon-img{
+	height: 6rem;
+	width: 6rem;
+	background-image: url(images/main_15.jpg);
+	background-repeat: no-repeat;
+}
+.nav-head .n-two .icon-img{
+	height: 6rem;
+	width: 7rem;
+	background-image: url(images/main_17.jpg);
+	background-repeat: no-repeat;
+}
+.nav-head .n-three .icon-img{
+	height: 7rem;
+	width: 6rem;
+	background-image: url(images/main_19.jpg);
+	background-repeat: no-repeat;
+}
+.nav-head .n-four .icon-img{
+	height: 2rem;
+	width: 2rem;
+	vertical-align: middle;
+	display: inline-block;
+	background-image: url(images/main_25.jpg);
+	background-repeat: no-repeat;
+}
+.how-study row{
+	font-size: 14px;
+	width: 100%;
+}
+.how-study span span:last-child{
+	height: 2rem;
+	width: 4rem;
+	display: inline-block;
+	background-image: url(images/main_26.jpg);
+	background-repeat: no-repeat;
+}
+.friendly-link ul li{
+
+    list-style: disc;
+ }
+ /*
+ 顶部header
+  */
+.header .col-sm-4{
+
+ 	color:rgb(41,176,120);
+ }
+.header .col-sm-3 img{
+ 	margin-right: 0.5rem;
+ 	margin-left: 0.5rem;
+ }
+ .header{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+/*
+顶部导航栏，链接有下划线
+ */
+nav{
+	height: 6rem;
+	padding-top: 2rem;
+	background-color: rgb(41,176,120);
+
+}
+nav .col-sm-4 a{
+	text-decoration: none;
+	font-size: 15px;
+	padding: 0 1rem 0 1rem;
+	color: white;
+
+	padding-bottom: 1.7rem;
+	border-bottom: 3px solid rgb(41,176,120);
+}
+nav .col-sm-4 a:hover{
+	border-bottom: 3px solid white;
+}
+/*
+简介，人脉啊什么的
+ */
+.section-main{
+	margin-top: 8rem;
+}
+.nav-head{
+	height: 15rem;
+}
+.nav-head .icon-img{
+	margin-left: 10rem;
+	margin-bottom: 2rem;
+}
+.nav-head .col-sm-3{
+	
+	height: 20rem;
+	
+	margin-bottom: 2rem;
+}
+.nav-head .col-sm-3>div{
+	background-color: white;
+	
+	padding: 1.5rem 1rem 2.5rem 1rem;
+}
+.nav-head .col-sm-3 strong{
+	margin-bottom: 2rem;
+	display: inline-block;
+
+}
+.nav-head .n-four{
+	padding-top: 5rem;
+}
+.nav-head .icon-p{
+	margin-bottom: 1rem;
+}
+.nav-head .icon-pes{
+	margin-left: 8.5rem;
+}
+.nav-head .n-four .icon-img{
+	margin: 0;
+}
+/*
+如何学习
+ */
+.how-study{
+	padding-top:5rem;
+}
+.how-study .title{
+	margin-bottom: 5rem;
+}
+.how-study .col-sm-3 .col-sm-1{
+	height: 4rem;
+	width: 4rem;
+	border-radius: 50%;
+	border:1px solid rgb(238,238,238);
+	padding-top: 1rem;
+}
+.how-study .col-sm-3 .col-sm-3{
+	vertical-align: middle;
+	margin-top: 1rem;
+}
+.how-study .row-one{
+	margin-bottom: 5rem;
+}
+.how-study .row-two{
+	margin-bottom: 5rem;
+}
+/*
+优秀学院展示
+ */
+.good-student .title{
+	margin-bottom: 5rem;
+}
+.good-student .img-people{
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+	
+	margin-left: 6rem;
+	
+}
+.good-student .img-people.one{
+	
+	
+
+	background: url(images/prople_03.jpg);
+	background-repeat: no-repeat;
+	background-position: 34% 57%;
+}.good-student .img-people.two{
+	
+	
+
+	background: url(images/prople_05.jpg);
+	background-repeat: no-repeat;
+	background-position:46% 47%;
+}.good-student .img-people.three{
+	
+	
+
+	background: url(images/prople_09.jpg);
+	background-repeat: no-repeat;
+	background-position: 40% 45%;
+}
+.good-student .img-people.four{
+	
+	
+
+	background: url(images/prople_11.jpg);
+	background-repeat: no-repeat;
+	background-position: 54% 52%;
+}
+.good-student .img-people img{
+		margin-top: 0rem;
+        margin-left:0rem;
+        height: 10rem;
+        width: 10rem;
+}
+
+.good-student .thumbnail{
+	padding:1rem 1.5rem 1rem 1.5rem;
+}
+
+/*
+合作企业
+ */
+.team-work{
+	margin-top: 5rem;
+}
+.team-work .row{
+	margin-left: 3rem;
+}
+.team-work .row .col-sm-2{
+	width: 18%;
+}
+.team-work .title{
+	margin-bottom: 5rem;
+}
+.team-work .logo{
+	padding-top: 2rem;
+	margin-left: 0.6rem;
+	margin-right: 0.6rem;
+	height: 10rem;
+	
+}
+.team-work .img-two{
+	padding-left: 5rem;
+}
+.team-work .img-four{
+	padding-left: 1px;
+}
+
+/*
+友情链接
+ */
+.friendly-link{
+	margin-top: 5rem;
+
+ }
+ .friendly-link .title{
+ 	margin-bottom: 5rem;
+ }
+ .friendly-link li{
+ 	margin: 1rem 0.9rem 1rem 0.9rem;
+ 	padding-left: 0;
+ }
+
+ /*
+ 底部
+  */
+ .foot{
+ 	margin-top: 2rem;
+ 	background-color: rgb(38,162,111);
+ 	height: 20rem;
+ 	color: white;
+ 	padding-top: 2rem;
+ }
+ .foot a{
+ 	color:white;
+ 	text-decoration: none;
+ }
+ .foot .col-sm-6 a{
+ 	margin: 1.5rem 4.5rem 1.5rem 0rem;
+ }
+ .foot .col-sm-6 p:first-child{
+ 	padding-bottom: 1rem;
+ }
+ .foot .col-sm-3 p:first-child{
+ 	padding-bottom: 4rem;
+ }
+ .foot .col-sm-3 a{
+ 	border-right: 2px solid white;
+ 	padding: 0rem 0.5rem 0rem 0rem;
+ }
+  .foot .col-sm-3 p a:last-child{
+ 	border-right: 0;
+ 	
+ }
+ .foot .foot-link{
+ 	margin-top: 15rem;
+ }
+
+/*
+图片导航类
+ */
+.art-nav{
+	
+}
+
+.art-nav .col-sm-5{
+	padding-right: 5rem;
+}
+.art-nav .col-sm-5 .radiu-icon{
+	padding-top: 4rem;
+}
+
+/*
+字体
+ */
+.fon-color{
+	color:rgb(153,153,153);
+}
